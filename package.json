@@ -1,0 +1,24 @@
+{
+  "name": "@vzrenggamani/whatsapp-bot",
+  "version": "0.1.0",
+  "description": "Bot WA Pribadi",
+  "main": "index.js",
+  "author": "Rengga Nugroho",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint **/**.js",
+    "lint:fix": "eslint **/**.js --fix"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^1.9.105",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@vzrenggamani/eslint-config": "^0.1.0-rc",
+    "eslint": "^7.8.1",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.1.1"
+  }
+}

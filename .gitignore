@@ -1,0 +1,5 @@
+node_modules/
+sketch.js
+.idea/
+**.log
+session**
